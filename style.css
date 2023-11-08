@@ -42,7 +42,8 @@ body * {
 }
 
 #Container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* height: 712px; A altura não é utilizada no CSS pois precisa ser fluido, a altura aumenta conforme vai colocando as caixas/div dentro da estilização */
   margin: 56px auto 0px;
   padding: 0 24px;
